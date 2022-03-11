@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat:wght@200&display=swap');
+@import url("bannerbis.css");
+@import url("button.css");
+@import url("footerbis.css");
+@import url("cardsbis.css");
+@import url("banner2.css");
+
+a {
+	text-decoration: none;
+	color: darkred;
+}
+
+.navbar-brand {
+	color: lightpink;
+	text-shadow: 1px 1px 1px darkred;
+}
+
+.heading {
+    padding-top: 50px;
+    padding: 16px 16px;
+    box-shadow:1px 1px 2px 2px lightpink;
+    background-color: white;
+    color: darkred;
+    border-radius: 6px darkred;
+    width: 70%;
+    margin-left: 13.5%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFDFD3 #E0A2A2;
+}
+
+h1 { 
+   font-family: 'Comfortaa', cursive;
+   color: darkred;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-shadow: 1px 1px 1px lightpink;
+}
+
+h2, h3 {
+	font-family: 'Comfortaa', cursive;
+	color: white;
+	text-shadow: 1px 1px 1px darkred;
+}
+
+.linear-gradient {
+	background: linear-gradient(darkred, #E0A2A2, white);
+	box-shadow: 1px 1px 5px 2px darkred;
+	padding-bottom: 30px;
+}
+
+div	{
+	text-align: center;
+}
+
+.linear-gradient h2 {
+	margin-top: 0;
+}
+
+.linear-gradient {
+	padding-top: 30px;
+}
+
+.carousel-item {
+	width: 100% ;
+	height: 600px;
+	object-fit: cover;
+}
+
+.carousel-caption h2:hover {
+	color: darkred;
+	text-shadow: 1px 1px 2px white;
+	transition: 1s;
+}
+
+.liste-aligne {
+	color: darkred;
+	margin-bottom: -40px;
+
+}
+.liste-aligne li {
+	display: inline;
+	margin: 0 16px;
+	font-size: 60px;
+}
+
+.fa-brands {
+	color: rgb(231, 153, 92);
+	text-shadow: 1px 1px 1px white;
+}
+
+.fa-brands:hover {
+	color: darkred;
+	text-shadow: 1px 1px 1px white;
+}
+
+.d-block {
+    width: 100%;
+}
+
+.linear-gradientbis {
+    background: linear-gradient( to top, darkred, #E0A2A2, white);
+	padding-bottom: 30px;
+	padding-top: 10px;
+}
